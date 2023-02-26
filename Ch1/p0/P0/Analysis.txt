@@ -1,0 +1,17 @@
+Analysis for time efficiency of each Task.
+
+Task 0 : O(1)
+ - It doesn't relate to input size
+
+Task 1 : O(n)
+ - It has independent 2 loops which results in O(2n).
+ So we can conclude as O(n) by neglecting constant term.
+ 
+Task 2 : O(n)
+ - It has only 1 loop
+
+Task 3 : O(nlog(n))
+ - It has two seperate loops that results in O(2n), and also sorting function that is O(nlogn). we can conclude as O(nlog(n)) by considering only dominant terms.
+
+Task 4 : O(nlog(n))
+ - It has two seperate loops that results in O(2n), and also sorting function that is O(nlogn). we can conclude as O(nlog(n)) by considering only dominant terms.
